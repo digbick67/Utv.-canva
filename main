@@ -1,123 +1,113 @@
-<main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
+<main class="max-w-6xl mx-auto px-6 py-16 space-y-24">
 
-  <!-- Hero Section -->
-  <section class="text-center">
-    <h1 class="text-4xl font-extrabold mb-4">Analys av Canva AI som bildgenerator</h1>
-    <p class="text-gray-600 max-w-2xl mx-auto">
-      En fördjupad och praktisk genomgång av hur Canva AI presterar i olika typer av bildgenerering – 
-      från fantasifulla motiv till strukturerade visualiseringar.
+  <!-- HERO -->
+  <section class="text-center fade-in">
+    <h1 class="text-5xl font-extrabold gradient-text mb-4">
+      Analys av Canva AI som Bildgenerator
+    </h1>
+    <p class="text-gray-300 max-w-2xl mx-auto text-lg">
+      En färgstark och fördjupad genomgång av hur Canva AI presterar i olika typer av bildgenerering.
     </p>
 
-    <div class="mt-8">
-      <img src="hero_canva.jpg" alt="AI Illustration" class="rounded-3xl shadow-xl mx-auto w-full max-w-3xl">
+    <div class="mt-10 explosion">
+      <img src="hero_canva.jpg" class="rounded-3xl shadow-2xl mx-auto w-full max-w-3xl float">
     </div>
   </section>
 
-  <!-- Background -->
-  <section class="space-y-4">
-    <h2 class="text-3xl font-semibold">Bakgrund</h2>
-    <p>
+  <!-- BAKGRUND -->
+  <section class="space-y-4 fade-in">
+    <h2 class="text-3xl font-semibold text-white">Bakgrund</h2>
+    <p class="text-gray-300">
       Canva AI har snabbt blivit ett populärt verktyg för att generera bilder direkt i webbläsaren. 
-      Men hur bra är det egentligen på olika typer av uppgifter? 
+      Men hur bra är det egentligen på olika typer av uppgifter?
+    </p>
+    <p class="text-gray-300">
       Denna analys sammanfattar styrkor, svagheter och praktiska exempel.
     </p>
-    <p>
-      Fokus ligger på tre områden: kreativa bilder, infografik och strukturerade visualiseringar som planlösningar.
-    </p>
   </section>
 
-  <!-- Example Images -->
-  <section>
-    <h2 class="text-3xl font-semibold mb-6">Exempel på resultat</h2>
+  <!-- EXEMPEL -->
+  <section class="fade-in">
+    <h2 class="text-3xl font-semibold text-white mb-8">Exempel på resultat</h2>
 
-    <div class="grid md:grid-cols-3 gap-8">
+    <div class="grid md:grid-cols-3 gap-10">
 
-      <!-- Creative -->
-      <div class="bg-white p-5 rounded-2xl shadow hover:shadow-lg transition">
-        <img src="cat_moon.jpg" alt="Katt på månen" class="rounded-xl mb-4">
-        <h3 class="font-semibold text-lg">Kreativ bild</h3>
-        <p class="text-sm text-gray-600">
-          En katt som dricker öl på månen – visuellt starkt, fantasifullt och förvånansvärt realistiskt.
+      <div class="bg-white/10 backdrop-blur p-6 rounded-2xl shadow-xl glow transition explosion">
+        <img src="cat_moon.jpg" class="rounded-xl mb-4">
+        <h3 class="font-semibold text-xl text-white">Kreativ bild</h3>
+        <p class="text-gray-300 text-sm">
+          En katt som dricker öl på månen – visuellt starkt och fantasifullt.
         </p>
       </div>
 
-      <!-- Infographic -->
-      <div class="bg-white p-5 rounded-2xl shadow hover:shadow-lg transition">
-        <img src="infographic.jpg" alt="Infografik" class="rounded-xl mb-4">
-        <h3 class="font-semibold text-lg">Infografik</h3>
-        <p class="text-sm text-gray-600">
-          Text och siffror blir ofta osammanhängande, vilket gör infografiken svår att använda.
+      <div class="bg-white/10 backdrop-blur p-6 rounded-2xl shadow-xl glow transition explosion">
+        <img src="infographic.jpg" class="rounded-xl mb-4">
+        <h3 class="font-semibold text-xl text-white">Infografik</h3>
+        <p class="text-gray-300 text-sm">
+          Text och siffror blir ofta osammanhängande och svåra att tolka.
         </p>
       </div>
 
-      <!-- Floorplan -->
-      <div class="bg-white p-5 rounded-2xl shadow hover:shadow-lg transition">
-        <img src="floorplan.jpg" alt="Planlösning" class="rounded-xl mb-4">
-        <h3 class="font-semibold text-lg">Planlösning</h3>
-        <p class="text-sm text-gray-600">
-          Strukturen saknar logik och rummen placeras ofta på märkliga sätt.
+      <div class="bg-white/10 backdrop-blur p-6 rounded-2xl shadow-xl glow transition explosion">
+        <img src="floorplan.jpg" class="rounded-xl mb-4">
+        <h3 class="font-semibold text-xl text-white">Planlösning</h3>
+        <p class="text-gray-300 text-sm">
+          Strukturen saknar logik och rummen placeras märkligt.
         </p>
       </div>
 
     </div>
   </section>
 
-  <!-- Analysis -->
-  <section class="space-y-4">
-    <h2 class="text-3xl font-semibold">Analys</h2>
-    <p>
+  <!-- ANALYS -->
+  <section class="space-y-4 fade-in">
+    <h2 class="text-3xl font-semibold text-white">Analys</h2>
+    <p class="text-gray-300">
       Canva AI briljerar när det gäller kreativa och fantasifulla bilder. 
-      Den visuella kvaliteten är hög, och motiv som djur, miljöer och surrealistiska scener genereras med imponerande detaljrikedom.
+      Den visuella kvaliteten är hög och motiven blir ofta estetiskt imponerande.
     </p>
-    <p>
-      Däremot uppstår tydliga brister vid uppgifter som kräver struktur, logik eller korrekt text. 
-      Diagram, siffror och planlösningar blir ofta inkonsekventa och saknar praktisk användbarhet.
-    </p>
-    <p>
-      Detta är ett vanligt problem bland många bildgeneratorer – men Canva AI sticker ut genom att vara extra stark på det estetiska, 
-      och svagare på det funktionella.
+    <p class="text-gray-300">
+      Däremot brister verktyget vid uppgifter som kräver struktur, logik eller korrekt text.
     </p>
   </section>
 
-  <!-- Strengths & Weaknesses -->
-  <section class="grid md:grid-cols-2 gap-10">
+  <!-- STYRKOR & SVAGHETER -->
+  <section class="grid md:grid-cols-2 gap-12 fade-in">
 
-    <div class="bg-green-100 p-6 rounded-2xl shadow-inner">
-      <h3 class="text-2xl font-semibold mb-3">Styrkor</h3>
-      <ul class="list-disc ml-6 space-y-2 text-gray-700">
-        <li>Mycket bra på kreativa och fantasifulla bilder</li>
-        <li>Hög visuell kvalitet och estetiskt tilltalande resultat</li>
-        <li>Snabb generering och enkel användning</li>
-        <li>Passar bra för sociala medier, posters och illustrationer</li>
+    <div class="bg-green-500/20 p-8 rounded-2xl shadow-xl glow">
+      <h3 class="text-2xl font-semibold text-green-200 mb-4">Styrkor</h3>
+      <ul class="list-disc ml-6 text-gray-200 space-y-2">
+        <li>Fantastiska kreativa bilder</li>
+        <li>Hög visuell kvalitet</li>
+        <li>Snabb generering</li>
+        <li>Perfekt för posters och sociala medier</li>
       </ul>
     </div>
 
-    <div class="bg-red-100 p-6 rounded-2xl shadow-inner">
-      <h3 class="text-2xl font-semibold mb-3">Svagheter</h3>
-      <ul class="list-disc ml-6 space-y-2 text-gray-700">
-        <li>Dålig hantering av text och siffror</li>
-        <li>Ologiska eller felaktiga strukturer i tekniska bilder</li>
-        <li>Svårt att använda för seriösa visualiseringar</li>
-        <li>Begränsad förståelse för spatial logik</li>
+    <div class="bg-red-500/20 p-8 rounded-2xl shadow-xl glow">
+      <h3 class="text-2xl font-semibold text-red-200 mb-4">Svagheter</h3>
+      <ul class="list-disc ml-6 text-gray-200 space-y-2">
+        <li>Dålig text- och sifferhantering</li>
+        <li>Ologiska strukturer</li>
+        <li>Svårt för tekniska visualiseringar</li>
       </ul>
     </div>
 
   </section>
 
-  <!-- Conclusion -->
-  <section class="space-y-4">
-    <h2 class="text-3xl font-semibold">Slutsats</h2>
-    <p>
-      Canva AI är ett imponerande verktyg för kreativa bilder och visuellt tilltalande illustrationer. 
-      För seriösa, faktabaserade visualiseringar är det däremot ännu inte tillräckligt pålitligt.
+  <!-- SLUTSATS -->
+  <section class="space-y-4 fade-in">
+    <h2 class="text-3xl font-semibold text-white">Slutsats</h2>
+    <p class="text-gray-300">
+      Canva AI är ett imponerande verktyg för kreativa bilder, men inte tillräckligt pålitligt för faktabaserade visualiseringar.
     </p>
-    <p>
-      Med förbättrad textförståelse och bättre logikhantering har Canva AI potential att bli ett betydligt mer mångsidigt verktyg i framtiden.
+    <p class="text-gray-300">
+      Med förbättrad textförståelse kan det bli ett betydligt mer mångsidigt verktyg.
     </p>
   </section>
 
 </main>
 
-<footer class="text-center text-sm text-gray-500 p-6">
+<footer class="text-center text-sm text-gray-500 p-6 fade-in">
   Skapad som en analys av AI-genererade bilder
 </footer>
